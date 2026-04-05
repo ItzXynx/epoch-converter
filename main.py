@@ -1,8 +1,6 @@
 import sys
 from datetime import datetime, timezone
 
-# convert between unix timestamps and human readable dates
-# i always forget how to do this
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -29,3 +27,4 @@ if __name__ == "__main__":
             print(f"epoch: {int(dt.timestamp())}")
         except:
             print("couldnt parse date")
+# updated
